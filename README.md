@@ -51,6 +51,12 @@
             <div class="face">Марат лох!!!</div>
             <div class="face">Марат лох!!!</div>
             <div class="face">Марат лох!!!</div>
+
+            <!-- Добавленный код для воспроизведения аудио с регулировкой громкости -->
+            <audio autoplay style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);" volume="1.0">
+                <source src="strashnye-zvuki-1.mp3" type="audio/mp3">
+                Ваш браузер не поддерживает воспроизведение аудио.
+            </audio>
         </div>
     </div>
 </body>
