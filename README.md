@@ -30,12 +30,12 @@
             color: #fff;
         }
 
-        .face:nth-child(1) { transform: rotateY(0deg) translateZ(100px); }
-        .face:nth-child(2) { transform: rotateY(90deg) translateZ(100px); }
-        .face:nth-child(3) { transform: rotateY(180deg) translateZ(100px); }
-        .face:nth-child(4) { transform: rotateY(-90deg) translateZ(100px); }
-        .face:nth-child(5) { transform: rotateX(90deg) translateZ(100px); }
-        .face:nth-child(6) { transform: rotateX(-90deg) translateZ(100px); }
+        .face:nth-child(1) { transform: rotateY(0deg) translateZ(85px); }
+        .face:nth-child(2) { transform: rotateY(90deg) translateZ(85px); }
+        .face:nth-child(3) { transform: rotateY(180deg) translateZ(85px); }
+        .face:nth-child(4) { transform: rotateY(-90deg) translateZ(85px); }
+        .face:nth-child(5) { transform: rotateX(90deg) translateZ(85px); }
+        .face:nth-child(6) { transform: rotateX(-90deg) translateZ(85px); }
 
         @keyframes rotateCube {
             from { transform: rotateY(0deg); }
